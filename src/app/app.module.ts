@@ -1,6 +1,6 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavigationRoutingModule } from './navigation/navigation-routing.module';
 
 import { AppComponent } from './app.component';
@@ -23,7 +23,8 @@ import { NgBootStrapModule } from './ngBootStrapModule/ngBootStrap.module';
     FormsModule,
     AngularMaterialModule,
     NavigationRoutingModule,
-    NgBootStrapModule
+    NgBootStrapModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
